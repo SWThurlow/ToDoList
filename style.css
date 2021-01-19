@@ -1,0 +1,42 @@
+/*To Do list form*/
+
+.toDoContainer {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.toDoContainer h2 {
+    text-align: center;
+}
+
+.toDoContainer label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.toDoContainer #addToDo {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*To Do list to do's*/
+
+.toDoInstance {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 60% 20% 10%;
+    grid-template-areas: "item date complete";
+}
+
+.toDoItem {
+    grid-area: item;
+}
+
+.dueDate {
+    grid-area: date;
+}
+
+.completeBtn {
+    grid-area: complete;
+}

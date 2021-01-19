@@ -4,8 +4,8 @@ let deadline = document.getElementById('deadline');
 let addToDoBtn = document.getElementById('addToDo');
 
 addToDoBtn.onclick = function addingToDo() {
-   let toDoContainer = document.createElement('div');
-    toDoContainer.setAttribute('class', 'toDoContainer')
+    let toDoContainer = document.createElement('div');
+    toDoContainer.setAttribute('class', 'toDoInstance')
     toDoList.appendChild(toDoContainer);
 
     let paragraph = document.createElement('p');
